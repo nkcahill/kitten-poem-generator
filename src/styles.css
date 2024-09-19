@@ -1,3 +1,56 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a {
+    color: blueviolet;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 60px;
+    background-color:rgb(159, 230, 230);
+    border-radius: 10px;
+}
+
 h1 {
     color: blueviolet;
+}
+
+form {
+    padding: auto;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid rgba(189, 185, 208, 0.5);
+    width: 70%;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(189, 185, 208, 0.5);
+    background-color: blueviolet;
+    color: #ffff;
+    
+}
+
+.poem {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5;
+    border-left: 3px solid blueviolet;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.5;
 }
