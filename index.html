@@ -16,11 +16,14 @@
         </header>
     
         <main>
-            <form id = "poemInput">
-                <input type="text" placeholder="Enter the topic of your poem" autofocus required autocomplete="off" class="instructions" id="topic">
-                <input type="submit" class="button">
-            </form>
-            <div id = "poemBox" class="poem">
+            <div class="formContainer">
+                <div class="userInstructions">Generate a poem about kittens with the topic of your choice</div>
+                <form id = "poemInput">
+                    <input type="text" placeholder="Enter the topic of your poem" autofocus required autocomplete="off" class="instructions" id="topic">
+                    <input type="submit" class="button">
+                </form>
+            </div>    
+            <div id = "poemBox" class="poem hidden">
             </div>
         </main>
     </div>
